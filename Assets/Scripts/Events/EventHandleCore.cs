@@ -4,7 +4,7 @@ namespace Events
 {
     public abstract class EventHandleCore
     {
-        protected List<object> _watchers = new List<object>(100);
+        protected List<object> _watchers = new(100);
 
         public static bool LogsEnabled => false;
 

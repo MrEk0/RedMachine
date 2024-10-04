@@ -392,3 +392,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activityType: 1
   mainCamera: {fileID: 2040505403}
+  moveVelocity: 5

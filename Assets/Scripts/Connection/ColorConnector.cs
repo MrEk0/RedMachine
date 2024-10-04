@@ -52,7 +52,7 @@ namespace Connection
         private void UpdateParameters(Vector2 secondPoint)
         {
             var distance = Vector2.Distance(secondPoint, _startPoint);
-
+        
             CanFinishConnecting = maxLength > distance;
                 
             _lineWidth = Mathf.Min(maxLength, distance);
